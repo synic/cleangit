@@ -1,0 +1,12 @@
+div.col-md-3 {
+  display: none !important;
+}
+
+div.col-md-9 {
+  width: 100% !important;
+  font-size: 18px;
+}
+
+div.col-md-9 li {
+  padding-bottom: 15px;
+}
