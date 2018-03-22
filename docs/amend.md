@@ -1,5 +1,7 @@
 # AMEND
 
+![amend](images/amend.png)
+
 I don't know why, but this word just seems perpetually misspelled to me.
 
 Amend creates a _new_ commit from the last commit on the branch and the staged

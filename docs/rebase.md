@@ -1,5 +1,8 @@
 # REBASE
 
+<!-- stolen from https://dzone.com/articles/the-2016-git-retrospective-rebase -->
+![rebase](images/rebase.gif)
+
 For the purposes of keeping your PR clean, `rebase` is often used in place of a
 `git merge origin/develop` or `git merge origin/master`.  It helps avoid merge
 commits in the middle of your commit history.  For instance, in the following

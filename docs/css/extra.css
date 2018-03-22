@@ -1,12 +1,44 @@
 div.col-md-3 {
-  display: none !important;
+  display: none;
 }
 
 div.col-md-9 {
-  width: 100% !important;
-  font-size: 18px;
+  width: 100%;
+  font-size: 28px;
 }
 
 div.col-md-9 li {
   padding-bottom: 15px;
+}
+
+div.col-md-9 h1, div.col-md-9 h2 {
+  padding-bottom: 25px;
+}
+
+div.col-md-9 h2 {
+  font-size: 30px;
+}
+
+p {
+  padding-bottom: 25px;
+}
+
+.navbar {
+  font-size: 9px;
+  height: 15px;
+}
+
+.navbar-header {
+}
+
+.navbar-nav {
+  display: none;
+}
+
+.navbar-right {
+  display: block;
+}
+
+.col-md-12 {
+  display: none;
 }

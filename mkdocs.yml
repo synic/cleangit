@@ -1,21 +1,18 @@
 site_name: Clean Pull Requests
 
-repo_url: http://github.com/synic/cleangit
-edit_uri: ''
-
 pages:
   - Clean Git: index.md
   - Whys and Why Nots:
     - Why: why.md
     - Why not: whynot.md
-    - Examples: badexamples.md
+    - Examples: examples.md
   - Things to Know:
     - A bit about Commits and Branches: commitsandbranches.md
     - Things to know: thingstoknow.md
     - Why do I care?: whydoicare.md
   - Techniques:
     - Summary: techniques.md
-    - Ammend: ammend.md
+    - Amend: amend.md
     - Cherry Pick: cherrypick.md
     - Rebase: rebase.md
     - Interactive Rebase: interactiverebase.md

@@ -1,8 +1,10 @@
 # INTERACTIVE REBASE
 
-This is the most flexible, most destructive operation.  In general, you should
-only do this if you don't have any merge commits in your branch history (which
-you can avoid by using `rebase` as described in the last section).  If
+![interactive rebase](images/interactiverebase.jpg)
+
+This is the most flexible, most destructive operation. **In general, you should
+only do this if you don't have any merge commits in your branch history**
+(which you can avoid by using `rebase` as described in the last section). If
 any of the commits in the merge commit modify the same files, it will be very
 difficult to get through this without fixing a bunch of conflicts.
 

@@ -1,9 +1,17 @@
 # CHERRY-PICK
 
+![cherry-pick](images/cherrypick.jpg)
+
 Grabs a commit from anywhere in the repository, and applies it to the current
 branch.  Note that because git commits include information about their
 ancestors, it is a _new_ commit, that matches the old one.  This is a
 non-destructive operation.
+
+## __How this is useful__
+
+*  You can pull commits from abandoned branches, old branches, etc
+*  If you totally screw up the branch you're working on, you can use
+   `cherry-pick` to construct a new branch.
 
 You can apply commits from far back in history, from other branches, orphaned
 commits, etc, as long as the code the commit references is reasonably similar
