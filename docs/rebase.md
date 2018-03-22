@@ -3,10 +3,10 @@
 <!-- stolen from https://dzone.com/articles/the-2016-git-retrospective-rebase -->
 ![rebase](images/rebase.gif)
 
-For the purposes of keeping your PR clean, `rebase` is often used in place of a
-`git merge origin/develop` or `git merge origin/master`.  It helps avoid merge
-commits in the middle of your commit history.  For instance, in the following
-scenario:
+For the purposes of keeping your PR clean, `rebase` is often used in place of
+`git pull mainline develop` or `git merge mainline/develop`. It helps avoid
+merge commits in the middle of your commit history. For instance, in the
+following scenario:
 
 1.  You create a new branch based on `develop`:
     `git checkout mainline/develop && git checkout -b my-super-branch`.
@@ -16,11 +16,11 @@ scenario:
 
 Here you have two options:
 
-1.  `git fetch -a mainline && git merge mainline/develop`.  This will create a
+1.  `git pull mainline develop`.  This will create a
     merge commit with all of the new changes, after the committed changes on
     your branch.  Your commit history will look something like:
     `develop -> my commits -> my commits -> merge develop -> my commits`
-2.  `git fetch -a mainline && git pull --rebase mainline/develop`.  This will
+2.  `git pull --rebase mainline develop`.  This will
     essentially uncommit your commits, pull down the develop with the new
     commits, and reapply your commits afterward.  Your commit history will look
     something like:
