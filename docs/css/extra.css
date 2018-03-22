@@ -23,6 +23,11 @@ p {
   padding-bottom: 25px;
 }
 
+code.text {
+  font-size: 26px;
+}
+
+
 .navbar {
   font-size: 9px;
   height: 15px;

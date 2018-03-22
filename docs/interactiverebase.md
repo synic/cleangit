@@ -14,7 +14,7 @@ you to rebase the commits since, and including, your target commit.
 
 If you had a commit history similar to the following:
 
-```
+```text
 379c36564 Commit I don't want anymore
 15a3a9748 More Documentation
 26d431509 Code Changes
@@ -32,7 +32,7 @@ https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection).
 When you type that, you will be presented with your default `$EDITOR` (which is
 hopefully vim ;-)) and it will look like this:
 
-```
+```text
 pick 3297e8697 Documentation Update
 pick 934a4791a Mispelled commit
 pick 26d431509 Code Changes
@@ -84,7 +84,7 @@ following operations:
 
 To do that, you would change the top part of the editor to look like this:
 
-```
+```text
 pick 3297e8697 Documentation Update
 squash 15a3a9748 More Documentation
 reword 934a4791a Mispelled commit
@@ -94,7 +94,7 @@ drop 379c36564 Commit I don't want anymore
 
 The following is equivalent:
 
-```
+```text
 pick 3297e8697 Documentation Update
 s 15a3a9748 More Documentation
 r 934a4791a Mispelled commit
