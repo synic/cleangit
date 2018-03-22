@@ -1,0 +1,12 @@
+[submodule "demos/amend"]
+	path = demos/amend
+	url = https://github.com/synic/cleangit-amend
+[submodule "demos/cherry-pick"]
+	path = demos/cherry-pick
+	url = https://github.com/synic/cleangit-cherry-pick
+[submodule "demos/rebase"]
+	path = demos/rebase
+	url = https://github.com/synic/cleangit-rebase
+[submodule "demos/interactive-rebase"]
+	path = demos/interactive-rebase
+	url = https://github.com/synic/cleangit-interactive-rebase
