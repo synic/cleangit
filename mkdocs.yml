@@ -16,6 +16,8 @@ pages:
     - Cherry Pick: cherrypick.md
     - Rebase: rebase.md
     - Interactive Rebase: interactiverebase.md
+  - Extra Credit:
+    - Reset: reset.md
 
 extra_css:
   - css/extra.css
