@@ -3,7 +3,11 @@
 Keeping your pull requests as clean as possible.
 
 
-<br><br><br>
+## __TOOLS USED__
+
+* Git CLI: [https://git-scm.com/](https://git-scm.com/)
+* MKDocs: [http://www.mkdocs.org/](http://www.mkdocs.org/)
+<br><br>
 
 Adam Olsen
 
