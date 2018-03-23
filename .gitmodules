@@ -10,3 +10,6 @@
 [submodule "demos/interactive-rebase"]
 	path = demos/interactive-rebase
 	url = https://github.com/synic/cleangit-interactive-rebase
+[submodule "demos/reset"]
+	path = demos/reset
+	url = https://github.com/synic/cleangit-reset
